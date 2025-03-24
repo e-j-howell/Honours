@@ -22,7 +22,7 @@ from nltk.stem import WordNetLemmatizer
 
 ## 2. Read in Text File
 ```
-filename = 'all positive files.txt'
+filename = '50 academic papers.txt'
 f = open(filename,encoding = "utf-8")
 data = f.read()
 ```
