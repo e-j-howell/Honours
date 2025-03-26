@@ -1,6 +1,6 @@
 # Linguistic Analyisis Code
 
-This is a reproducable tool suitable for conducting linguistic analysis on a large text file. In the process of developing this tool it was catered specifically to a study of the language being used in discussion of the organic food sector. This repository contains the raw data used for this research, as well as the code used to analyse three different data sets of a respective 'positive' 'negative' or 'neutral' sentiment.
+This is a reproducable tool suitable for conducting linguistic analysis on a large text file. In the process of developing this tool it was catered specifically to a study of the language being used in discussion of determinism in academic, popular, and social media. This repository contains the raw data used for this research, as well as the code used to analyse three different data sets of a respective 'academic literature' 'media articles' or 'youtube transcripts' source.
 
 Below is a flow chart to visualise the key processes involved in this tool, followed by a general step-by-step breakdown of how each of these steps is achieved within the code.
 
