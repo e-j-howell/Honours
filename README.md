@@ -2,10 +2,9 @@
 
 This is a reproducable tool suitable for conducting linguistic analysis on a large text file. In the process of developing this tool it was catered specifically to a study of the language being used in discussion of determinism in academic, popular, and social media. This repository contains the raw data used for this research, as well as the code used to analyse three different data sets of a respective 'academic literature' 'media articles' or 'youtube transcripts' source.
 
-Below is a flow chart to visualise the key processes involved in this tool, followed by a general step-by-step breakdown of how each of these steps is achieved within the code.
+Below is a flow chart to visualise the key processes involved in this tool, followed by a general step-by-step breakdown of how each step is achieved within the code.
 
-![Untitled Diagram for GITHUB drawio](https://github.com/elviehatescoding/ICPU-Final-Project/assets/169135173/e8f3c9c2-f560-4286-a5d7-7733693829eb)
-
+![flow chart](https://github.com/user-attachments/assets/3309caa3-83c7-4b69-8623-e41c23caac77)
 
 ## 1. Import Appropriate Tools
 
