@@ -4,7 +4,8 @@ This is a reproducable tool suitable for conducting linguistic analysis on a lar
 
 Below is a flow chart to visualise the key processes involved in this tool, followed by a general step-by-step breakdown of how each step is achieved within the code.
 
-![flow chart](https://github.com/user-attachments/assets/3309caa3-83c7-4b69-8623-e41c23caac77)
+![flow chart new](https://github.com/user-attachments/assets/7e145267-98f1-480f-9321-fc76abbe43fb)
+
 
 ## 1. Import Appropriate Tools
 
