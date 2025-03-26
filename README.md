@@ -80,23 +80,6 @@ Lemmatisation is a data alteration process essential for many Natural Language P
 lemmatizer = WordNetLemmatizer()
 lemmatized_words = [lemmatizer.lemmatize(word) for word in words_no_stop_words]
 ```
-#### i. Manual Revision
-This lemmatisation was further extended to specific cases that were relevant to this subject matter but not accounted for in the default NLTK lemmatisation tool.
-```
-def lemmatize_word(word):
-    lemmatizer = WordNetLemmatizer()
-    return lemmatizer.lemmatize(word)
-
-def replace_farm_words(words):
-    replacements = {"farming": "farm", "farmer": "farm", "farms": "farm", "farmers": "farm"}
-    return [replacements.get(lemmatize_word(word), word) for word in words]
-
-# Example list of words
-word_list = lemmatized_words
-
-# Replace farm-related words
-modified_list = replace_farm_words(word_list)
-```
 ## 4. Word Counter
 This creates a frequency count of each word in the data set.
 ```
@@ -111,7 +94,7 @@ most_common_words = words_count.most_common(51)
 ```
 
 ## 6. Plot
-Then, to create a meaningful and legible graph, data was plotted from the 4th most frequently used word onwards, so as not to include ‘organic’, ‘farm’ and ‘food’ which dominated significantly in the positive, negative and neutral data sets.
+Then, data was plotted from the most frequently used word onwards to create a meaningful and legible graph.
 
 ```
 x, y = zip(*most_common_words)
