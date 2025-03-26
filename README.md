@@ -49,9 +49,8 @@ words = text_no_punctuation.split()
 ### d. Stop Words
 This prevents the most common and basic words in the language from dominating the word count results.
 ```
-#defining stop word and punctuation function
 
-# Basic list of stop words. Consider expanding this list based on your needs.
+# Basic list of stop words, expanded upon based on your needs.
 stop_words = set([
     "i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", 
     "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", 
@@ -70,6 +69,9 @@ stop_words = set([
     "im", "us", "–", "said", "also"
 ])
 
+# Function to remove stop words
+def remove_stop_words(words):
+    return [word for word in words if word not in stop_words]
 words_no_stop_words = remove_stop_words(words)
 ```
 ### e. Lemmatisation
